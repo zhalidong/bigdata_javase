@@ -21,6 +21,7 @@ public class ArrayDemo1_1 {
 			//将一个数据装入数组中指定的第几个索引
 			scoreArr[i]=Float.parseFloat(line);
 		}
+		
 		//计算总成绩
 		float sum=0;
 		for(int i=0;i<5;i++){
