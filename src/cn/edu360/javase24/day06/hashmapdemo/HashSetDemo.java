@@ -8,9 +8,9 @@ import cn.edu360.javase24.day05.shop.Product;
 
 /**
  * hashset是一个集合数据类型
- * 一个具体的hashset中可以装入多个数据		顺序是无序的
+ * 一个具体的hashset中可以装入多个数据   顺序是无序的
  * hashset中的数据不能重复
- * hashset中数据存储时无序的
+ * hashset中数据存储是无序的
  * @author Administrator
  *
  */
@@ -24,10 +24,11 @@ public class HashSetDemo {
 		set1.add("马蓉");
 		set1.add("杨贵妃");
 		set1.add("潘金莲");
-		set1.add("西施");		
+		set1.add("西施");
 		
 		//获取set长度
 		int size = set1.size();
+		System.out.println(size);
 		
 		//移除元素
 		set1.remove("马蓉");
@@ -46,11 +47,10 @@ public class HashSetDemo {
 			System.out.println(next);
 		}
 		
-		//增强for循环：内部封装了迭代器的使用
+		//增强for循环:内部封装了迭代器的使用
 		for(String tmp:set1){
 			System.out.println(tmp);
 		}
-		
 		//数组也可以用增强for循环来遍历
 		int[] arr = new int[]{3,5,7,9,2};
 		for(int x:arr){
@@ -65,7 +65,8 @@ public class HashSetDemo {
 		
 		for(Product p:pdts){
 			System.out.println(p);
-		}		
+		}
+		
 		
 		
 	}
