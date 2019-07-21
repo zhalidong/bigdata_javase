@@ -1,4 +1,4 @@
-package cn.edu360.javase24.day07.interfacedemo2;
+package cn.edu360.javase24.day07.interfacedemo2.service;
 /**
  * 业务层的接口
  * 定义了了两个方法	

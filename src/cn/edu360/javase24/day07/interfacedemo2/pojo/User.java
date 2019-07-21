@@ -1,4 +1,4 @@
-package cn.edu360.javase24.day07.interfacedemo2;
+package cn.edu360.javase24.day07.interfacedemo2.pojo;
 
 public class User {
 	

@@ -1,4 +1,9 @@
-package cn.edu360.javase24.day07.interfacedemo2;
+package cn.edu360.javase24.day07.interfacedemo2.service;
+
+import cn.edu360.javase24.day07.interfacedemo2.dao.UserDao;
+import cn.edu360.javase24.day07.interfacedemo2.dao.UserDaoImpl;
+import cn.edu360.javase24.day07.interfacedemo2.pojo.User;
+
 /**
  * 业务层
  * @author Administrator

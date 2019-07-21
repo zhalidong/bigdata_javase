@@ -2,6 +2,9 @@ package cn.edu360.javase24.day07.interfacedemo2;
 
 import java.util.Scanner;
 
+import cn.edu360.javase24.day07.interfacedemo2.service.UserService;
+import cn.edu360.javase24.day07.interfacedemo2.service.UserServiceImpl;
+
 //界面层
 public class UserMenu {
 	
@@ -12,7 +15,7 @@ public class UserMenu {
 		boolean flag = true;
 		while(flag){
 		
-		System.out.println("1 登录 2 注册 3 退出");
+		System.out.println("1 登录 2 注册 quit 退出");
 		String nextLine = sc.nextLine();
 		
 		switch (nextLine) {
@@ -56,7 +59,8 @@ public class UserMenu {
 			default:
 				break;
 			}
-		case "3":
+			break;
+		case "quit":
 			System.out.println("bye...");
 			flag = false;
 			break;
